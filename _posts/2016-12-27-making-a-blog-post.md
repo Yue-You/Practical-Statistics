@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to post your blog post"
-author: Rebecca Barter
+author: Rebecca Barter, Kellie Ottoboni
 categories: [introduction]
 tags: [publishing, blog posts]
 ---
@@ -102,7 +102,7 @@ servr::jekyll(command = "~/.rbenv/shims/jekyll build")
 {% endhighlight %}
 
 
-Note that due to laziness, this site was essentially copied from Yihui Xie's kitr-jekyll repository https://github.com/yihui/knitr-jekyll. Gi
+Note that due to laziness, this site was essentially copied from Yihui Xie's [knitr-jekyll repository](https://github.com/yihui/knitr-jekyll).
 
 ## Divergence between the main repository and your fork
 
