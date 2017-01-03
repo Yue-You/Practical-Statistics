@@ -42,12 +42,12 @@ git checkout -b NAME-OF-NEW-BRANCH
   
 The first line pulls the gh-pages branch from your fork on GitHub to your local machine.
 The second line creates a new branch on your local machine (`git checkout` is for switching branches and the `-b` flag says to create a new branch).
-You need to make your changes on a new branch; the gh-pages branch won't work.
+You need to **make your changes on a new branch**; the gh-pages branch won't work.
 Now you should have all the files necessary.
 
 ## Step 2: Write your blog post using R Markdown
 
-Write your blog post in RStudio as an R Markdown file, and save your `.Rmd` file in the `/_source` folder <font color="red">this lives on the `gh_pages` branch</font>.
+Write your blog post in RStudio as an R Markdown file, and save your `.Rmd` file in the `/_source` folder (which lives on the `gh_pages` branch).
 Once you're done, add and commit your blog post:
 
 ```{bash eval = FALSE}
@@ -69,11 +69,6 @@ Now, navigate back to [the original repo](https://github.com/rlbarter/Practical-
 At the top of the repo, the new branch will show up with a green Pull Request button - click it and submit the request, **making sure that you set the base branch as gh-pages**.
 Now, the maintainers will either merge your changes into the website, or may ask you to make modifications first.
 If the latter happens, follow this same process of commits and pushes, and they will automatically get added to your open pull request.
-
-<font color="red">Note that the website content lives on the `gh-pages` branch... I need someone who is more familliar with forking and making pull requests than I to write about how to do this. All .Rmd posts will be added to the `/_source` folder in the `gh-pages` branch</font>
-
-
-Do the things
 
 ## Advanced steps
 
